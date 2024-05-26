@@ -77,9 +77,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["btn-delete-all"])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
+    <h3 class="text-center mb-4 py-2 bg-primary text-white">Masukan Data Siswa</h3>
     <div class="container">
         <div class="form-container">
-            <h3 class="text-center mb-4 mt-4">Masukan Data Siswa</h3>
             <div class="d-flex justify-content-center border border-info rounded py-3 mb-3">
                 <form method="post" class="add-data d-flex justify-content-center flex-column mb-2">
                     <div class="input-container d-flex gap-3 mb-2">
